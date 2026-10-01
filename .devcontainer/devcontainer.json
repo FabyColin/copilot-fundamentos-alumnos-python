@@ -1,11 +1,11 @@
 {
-  "name": "Curso GitHub Copilot - Fundamentos",
+  "name": "Curso GitHub Copilot - Pista Python",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
-  "postCreateCommand": "pip install -r src/requirements.txt -r requirements.txt",
-  "forwardPorts": [5000, 8000],
+  "postCreateCommand": "pip install -r src/requirements.txt",
+  "forwardPorts": [5000],
   "customizations": {
     "vscode": {
       "extensions": [

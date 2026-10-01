@@ -46,4 +46,3 @@ hazme validaciones
 ## Para quien termine antes
 
 Crea un segundo prompt file, `generar-pruebas.prompt.md`, con el estándar de pruebas del equipo (pytest, `parametrize`, un caso borde por función).
-

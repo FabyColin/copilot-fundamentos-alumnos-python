@@ -3,8 +3,9 @@
 **Módulo:** [2. Autocompletado](../modulos/02-autocompletado.md) · **Tiempo:** 30 min (3 tramos aislados) + 50 min (ejercicio completo)
 **Carpeta:** `ejercicios/ej1-autocompletado/`
 
-!!! warning "Regla del ejercicio"
-    Nada de chat. Solo autocompletado, comentarios y NES.
+> **Regla del ejercicio**
+>
+> Nada de chat. Solo autocompletado, comentarios y NES.
 
 ## Tramo A: ghost text (10 min)
 
@@ -72,4 +73,3 @@ pytest -q
 ### Para quien termine antes
 
 Agrega `actualizar_stock(sku, delta)` que impida dejar el stock en negativo, y escribe a mano (con autocompletado) dos pruebas para ella.
-

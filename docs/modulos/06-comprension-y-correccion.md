@@ -2,6 +2,10 @@
 
 **Duración:** 10 min teoría + 30 min de [Ejercicio 3](../ejercicios/ej3-codigo-legacy.md)
 
+> **Pistas Python y JavaScript**
+>
+> Los ejemplos de este módulo usan archivos de la pista Python (`src/app.py`, `pytest`). En la pista JavaScript el equivalente es `src/app.js` con Jest: consulta las [equivalencias](../pistas.md#equivalencias-de-archivos).
+
 ## Explicar código legacy desconocido
 
 Estrategia en tres pasos, de lo general a lo particular:
@@ -10,8 +14,9 @@ Estrategia en tres pasos, de lo general a lo particular:
 2. **Detalle** (`/explain` sobre una selección): línea por línea o por bloques.
 3. **Mapa de dependencias**: "¿Qué funciones llaman a esta? ¿Qué pasa si cambio su resultado?"
 
-!!! tip
-    Pide a Copilot que **renombre mentalmente** las variables: "propón nombres descriptivos para `f`, `d`, `r` y `t`". Es una forma rápida de entender el propósito.
+> **Consejo**
+>
+> Pide a Copilot que **renombre mentalmente** las variables: "propón nombres descriptivos para `f`, `d`, `r` y `t`". Es una forma rápida de entender el propósito.
 
 ## Diagnóstico y corrección de bugs
 
@@ -31,8 +36,9 @@ Flujo:
 3. Aplica `/fix` o la corrección propuesta.
 4. **Verifica**: vuelve a ejecutar y comprueba.
 
-!!! warning
-    Un fix que "hace desaparecer el error" no siempre corrige la causa. Exige la explicación.
+> **Atención**
+>
+> Un fix que "hace desaparecer el error" no siempre corrige la causa. Exige la explicación.
 
 ## Navegar una base de código con preguntas
 

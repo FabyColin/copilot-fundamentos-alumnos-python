@@ -1,4 +1,4 @@
-"""Pruebas de validación del cierre del Ejercicio 1 (vienen incluidas; no las modifiques)."""
+"""Pruebas de validación del cierre del Ejercicio 1 (las entrega el instructor)."""
 import pytest
 
 from inventario import Inventario

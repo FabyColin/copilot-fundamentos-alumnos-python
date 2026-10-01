@@ -2,8 +2,9 @@
 
 Bienvenido al curso de un día. Aquí encontrarás el material de cada módulo, los enunciados de los cinco ejercicios y los recursos de consulta.
 
-!!! tip "Cómo sacarle provecho al día"
-    Copilot escribe rápido, pero **tú eres responsable del código**. En cada ejercicio hay un momento para revisar, corregir y cuestionar lo que sugiere. Ahí está el aprendizaje.
+> **Cómo sacarle provecho al día**
+>
+> Copilot escribe rápido, pero **tú eres responsable del código**. En cada ejercicio hay un momento para revisar, corregir y cuestionar lo que sugiere. Ahí está el aprendizaje.
 
 ## Ruta del día
 
@@ -18,4 +19,4 @@ Bienvenido al curso de un día. Aquí encontrarás el material de cada módulo, 
 9. [Imagen a código](modulos/09-imagen-a-codigo.md) → [Ejercicio 5](ejercicios/ej5-imagen-a-codigo.md)
 10. [Más allá del IDE](modulos/10-mas-alla-del-ide.md) (demo del instructor)
 
-Consulta la [agenda](agenda.md) con los horarios y los [requisitos previos](requisitos.md).
+El curso tiene dos pistas con los mismos ejercicios: **Python** (Flask y pytest) y **JavaScript** (Express, React y Jest). Consulta cómo elegir en [Pistas](pistas.md), la [agenda](agenda.md) con los horarios y los [requisitos previos](requisitos.md).

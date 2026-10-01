@@ -50,4 +50,3 @@ Revisa el código generado:
 - [ ] Anotaste 3 diferencias contra el mockup y corregiste al menos 2.
 - [ ] Hay estado vacío o diseño responsivo.
 - [ ] Identificaste al menos 1 problema de calidad en el código generado.
-

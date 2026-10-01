@@ -15,8 +15,9 @@ Flujo:
 3. El agente crea una rama, implementa, ejecuta pruebas y abre un PR.
 4. Tú revisas y comentas con `@copilot` para pedir ajustes.
 
-!!! warning "Costos y tiempos"
-    Cada tarea consume solicitudes premium y puede tardar varios minutos. Para la demo en vivo, **lanza la tarea con anticipación** o usa un PR ya generado.
+> **Costos y tiempos**
+>
+> Cada tarea consume solicitudes premium y puede tardar varios minutos. Para la demo en vivo, **lanza la tarea con anticipación** o usa un PR ya generado.
 
 Un issue vago produce un PR vago: la calidad del issue es la calidad del resultado.
 

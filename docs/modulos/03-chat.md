@@ -2,6 +2,10 @@
 
 **Duración:** 20 min · **Tipo:** teoría + demo
 
+> **Pistas Python y JavaScript**
+>
+> Los ejemplos de este módulo usan archivos de la pista Python (`src/app.py`, `pytest`). En la pista JavaScript el equivalente es `src/app.js` con Jest: consulta las [equivalencias](../pistas.md#equivalencias-de-archivos).
+
 ## Chat en panel vs inline chat
 
 | | Chat en panel | Inline chat (`Ctrl+I`) |
@@ -20,8 +24,9 @@
 
 Regla práctica: **Ask para entender, Plan para decidir, Agent para ejecutar.**
 
-!!! note
-    La interfaz del chat cambia con frecuencia entre versiones. Si ves nombres distintos, busca el equivalente.
+> **Nota**
+>
+> La interfaz del chat cambia con frecuencia entre versiones. Si ves nombres distintos, busca el equivalente.
 
 ## Slash commands
 

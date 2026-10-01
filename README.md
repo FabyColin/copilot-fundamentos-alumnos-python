@@ -1,6 +1,6 @@
-# GitHub Copilot: Fundamentos (curso de 1 día)
+# GitHub Copilot: Fundamentos (pista Python)
 
-Curso práctico de 8 horas para aprender a trabajar con GitHub Copilot en el flujo de desarrollo diario, desde el autocompletado hasta el modo Agent, usando **Python y Flask**.
+Material para alumnos del curso de 1 día. Trabajarás con **Python y Flask**, y probarás con **pytest**.
 
 ## Qué aprenderás
 
@@ -12,45 +12,40 @@ Curso práctico de 8 horas para aprender a trabajar con GitHub Copilot en el flu
 - Delegar cambios multi-archivo al agente con control y revisión humana.
 - Generar pruebas con pytest y llevarlas a verde.
 - Pasar de un mockup a código.
-- Conocer el cloud agent, Copilot code review y MCP (demo del instructor).
 
-## Cómo está organizado el repositorio
+## Estructura
 
 | Carpeta | Contenido |
 |---|---|
-| `docs/` | Sitio del curso (MkDocs): módulos, ejercicios, agenda y recursos |
+| `docs/` | Módulos del curso, enunciados de los ejercicios, agenda y recursos |
 | `ejercicios/` | Archivos de arranque de los 5 ejercicios |
 | `src/` | Tienda de productos en Flask, proyecto base de varios ejercicios |
 | `.devcontainer/` | Entorno listo para Codespaces o Dev Containers |
 
 ## Los 5 ejercicios
 
-| # | Ejercicio | Módulos | Tiempo |
-|---|---|---|---|
-| 1 | Autocompletado: 3 tramos aislados + módulo de inventario | 2 | 30 + 50 min |
-| 2 | Chat, contexto y prompting | 3, 4, 5 | 30 min |
-| 3 | Rescata el script legacy | 6 | 30 min |
-| 4 | Agent mode: descuentos y pruebas en verde | 7, 8 | 55 min |
-| 5 | Del mockup a la página | 9 | 30 min |
+| # | Ejercicio | Tiempo |
+|---|---|---|
+| 1 | [Autocompletado](docs/ejercicios/ej1-autocompletado.md): 3 tramos aislados y módulo de inventario | 30 + 50 min |
+| 2 | [Chat, contexto y prompting](docs/ejercicios/ej2-chat-contexto-prompting.md) | 30 min |
+| 3 | [Rescata el script legacy](docs/ejercicios/ej3-codigo-legacy.md) | 30 min |
+| 4 | [Agent mode: descuentos y pruebas en verde](docs/ejercicios/ej4-agent-descuentos.md) | 55 min |
+| 5 | [Del mockup a la página](docs/ejercicios/ej5-imagen-a-codigo.md) | 30 min |
+
+Empieza por los [requisitos previos](docs/requisitos.md) y la [agenda](docs/agenda.md).
 
 ## Inicio rápido
 
-La opción recomendada es **GitHub Codespaces** (botón *Code → Codespaces → Create*), que instala todo automáticamente.
+La opción recomendada es **GitHub Codespaces** (*Code → Codespaces → Create*), que instala todo automáticamente.
 
 En local:
 
 ```bash
 git clone <url-de-este-repositorio>
-cd copilot-fundamentos-alumnos
+cd <carpeta-del-repositorio>
 python -m venv .venv && source .venv/bin/activate   # en Windows: .venv\Scripts\activate
-pip install -r src/requirements.txt -r requirements.txt
+pip install -r src/requirements.txt
 pytest src
-```
-
-Para ver la documentación como sitio web:
-
-```bash
-mkdocs serve
 ```
 
 ## Licencia

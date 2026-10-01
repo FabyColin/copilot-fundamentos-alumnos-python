@@ -76,4 +76,3 @@ pytest --cov=descuentos --cov-report=term-missing
 ## Reflexión final (3 líneas)
 
 ¿Qué hizo el agente que **no** pediste? ¿Qué corregiste? ¿Qué harías distinto en el prompt?
-

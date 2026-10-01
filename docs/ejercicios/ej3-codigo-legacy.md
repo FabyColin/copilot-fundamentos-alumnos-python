@@ -34,8 +34,9 @@ El script tiene **3 bugs**. Algunos son silenciosos: el programa no falla, pero 
 3. Pide a Copilot **la causa** antes de la corrección.
 4. Aplica el arreglo y **verifica ejecutando de nuevo**.
 
-!!! tip "Pista de verificación"
-    Calcula a mano el total de las ventas de `Marta` en `ventas.csv` y compáralo con lo que muestra el reporte.
+> **Pista de verificación**
+>
+> Calcula a mano el total de las ventas de `Marta` en `ventas.csv` y compáralo con lo que muestra el reporte.
 
 ## Parte 3: dejarlo mejor (5 min)
 
@@ -52,4 +53,3 @@ Pide a Copilot que refactorice el script con nombres descriptivos y funciones pe
 
 1. ¿Qué bug fue el más difícil de detectar? ¿Por qué?
 2. ¿Hubo algún "arreglo" de Copilot que ocultaba el problema en lugar de resolverlo?
-

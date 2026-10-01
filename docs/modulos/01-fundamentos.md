@@ -24,6 +24,10 @@ La idea importante es distinguir qué consume qué:
 | Chat y modo Agent | Cada interacción cuenta; los modelos más potentes pueden contar más |
 | Cloud agent | Consume solicitudes premium por tarea |
 
+> **Para el instructor**
+>
+> Muestra en vivo el medidor de uso en github.com/settings/copilot y completa la tabla con las cuotas reales del plan de la audiencia.
+
 ## Privacidad, uso responsable y validación humana
 
 - **Qué se envía:** el código y el contexto que Copilot necesita para responder. Revisa la política de tu plan sobre retención y entrenamiento.

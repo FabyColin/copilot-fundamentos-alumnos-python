@@ -2,6 +2,10 @@
 
 **Duración:** 20 min · **Tipo:** teoría + demo. Se practica en el [Ejercicio 4](../ejercicios/ej4-agent-descuentos.md).
 
+> **Pistas Python y JavaScript**
+>
+> Los ejemplos de este módulo usan archivos de la pista Python (`src/app.py`, `pytest`). En la pista JavaScript el equivalente es `src/app.js` con Jest: consulta las [equivalencias](../pistas.md#equivalencias-de-archivos).
+
 El modo Agent trabaja por ti en varios pasos: lee archivos, edita varios a la vez, ejecuta comandos en la terminal, ve los errores y corrige. **Tú sigues al mando.**
 
 ## Planear antes de ejecutar
@@ -29,8 +33,9 @@ Un plan que revisas en 2 minutos te ahorra 20 minutos de deshacer cambios.
 | Cambios ya aceptados | `Ctrl+Z` en el archivo o `git restore` / `git diff` |
 | Seguridad extra | Haz `git commit` antes de empezar una tarea grande |
 
-!!! tip
-    Trabaja en una rama limpia. Con `git diff` ves exactamente qué tocó el agente.
+> **Consejo**
+>
+> Trabaja en una rama limpia. Con `git diff` ves exactamente qué tocó el agente.
 
 ## Limitar alcance para evitar cambios no deseados
 
